@@ -1,0 +1,127 @@
+body{
+    background-image: url(../images/bush.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: "Mukta", sans-serif;
+}
+.ftp{
+    width: 270px;
+    height: 187px;
+    z-index:15;
+}
+nav{
+    position: fixed;
+    width: 960px;
+    height: 50px;
+    left:200px;
+    top:60px;
+    z-index: 10;
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    line-height: 25px;
+}
+
+#nav1, #nav2, #nav3{
+    color: white;
+    text-decoration: none;
+    top: 10px;
+    position: relative;
+}
+#logo{
+    position: fixed;
+    width: 120px;
+    margin-top: 20px;
+    top: 20px;
+    left: 200px;
+    z-index: 15;
+}
+section{
+    background-color: whitesmoke;
+    position: fixed;
+    width: 960px;
+    height: 750px;
+    margin: auto;
+    top: 180px;
+    left: 200px;
+    z-index: 10;
+    overflow: auto;
+}
+.prod{
+    width: 280px;
+    height: 187px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(6, 14, 61);
+    position: relative;
+    z-index: 15;
+    display: inline-block;
+}
+#ElginSM{
+    top:0;
+    left:0;
+}
+#BrotherSM{
+    top:0;
+    left:320;
+}
+#JanomeSM{
+    top:0;
+    left:640;
+}
+#SingerSM{
+    top:210;
+    left:0;
+}
+#JanomeOL{
+    top:210;
+    left:320;
+}
+#SingerOL{
+    top:210;
+    left:640;
+}
+#chineOL{
+    top:420;
+    left:0;
+ 
+}
+.SingerBord{
+    top:420;
+    left:320;
+}
+#BrotherBord{
+    top:420;
+    left:640;
+}
+.nprod {
+    background-color: rgba(0, 0, 0, 0.37);
+    color: white;
+    font-style: oblique;
+    font-family: "Mukta", sans-serif;
+    text-align: center;
+    height: 20px;
+    widows: 350px;
+    position: relative;
+    bottom: 130px;
+    z-index: 25;
+    line-height: 20px;
+}    
+.vm{
+    border: 20px;
+    color: white;
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Mukta", sans-serif;
+    font-style: bold;
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    z-index: 20;
+}
