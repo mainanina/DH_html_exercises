@@ -6,6 +6,9 @@ body{
     background-attachment: fixed;
     font-family:'Catamaran', sans-serif;
     font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 header{
     display: flex;
@@ -21,6 +24,7 @@ header{
 .listaini{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 0;
     justify-content: space-between;
     margin-block-start: 0;
@@ -32,7 +36,7 @@ header{
     text-decoration: none;
     color: white;
     font-size: 1.25em;
-    padding:0px 5vw 0px 5vw;
+    padding:0px 60px 0px 60px;
     border: solid 2px rgb(56, 53, 53);
     background-color: rgb(68, 67, 67);
     margin: 0;
@@ -43,25 +47,27 @@ header{
     background-repeat: no-repeat;
     height: 300px;
     width: 85vw;
-    margin-bottom: 5vh;
+    margin-bottom: 30px;
 }
 section{
     display: flex;
     width: 85vw;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 60vw;
-    
+    height: 1050px;
+    justify-content: center;
+    overflow: auto;
+      
 }
 .fotoCmd{
     display: flex;
-    width: 31.5%;
+    width: 505px;
     flex-direction: column;
-    height: 50%; 
+    height: 520px; 
 }
 #ft2,#ft3{
-    margin-left: 2.3vw;
-    margin-right: 2.3vw;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .blocoIm{
     height: 50%;
@@ -93,7 +99,7 @@ section{
     text-align: justify;
 }
 .VM{
-    line-height: 30px;
+    line-height: 1.5em;
     color: white;
     font-size: 1.25em;
     border: solid 2px rgb(56, 53, 53);
@@ -104,13 +110,16 @@ section{
 }
 footer{
     display: flex;
+    border-radius: 20px 20px 0 0;
     width: 85vw;
-    height: 15vh;
+    height: 120px;
     background-color: red;
     justify-content: center;
     color: white;
     font-size: 1.2em;
-   align-items: center;
+    align-items: center;
+    justify-self: flex-end;
+  
 }
 .itemMenuF{
     color: white;
