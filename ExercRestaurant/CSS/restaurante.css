@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+body{
+    background-image: url(../img/restaurant.png);
+    background-attachment: fixed;
+    font-family:'Catamaran', sans-serif;
+    font-weight: 600;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    margin:0;
+}
+#logo{
+    align-self: center;
+    width:10%;
+    margin-bottom: 0;
+}
+.listaini{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-between;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+.itemMenu{
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+    padding:0px 5vw 0px 5vw;
+    border: solid 2px rgb(56, 53, 53);
+    background-color: rgb(68, 67, 67);
+    margin: 0;
+}
+.fotoPrincipal{
+    background-image: url(../img/cmd0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 85vw;
+    margin-bottom: 5vh;
+}
+section{
+    display: flex;
+    width: 85vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 60vw;
+    
+}
+.fotoCmd{
+    display: flex;
+    width: 31.5%;
+    flex-direction: column;
+    height: 50%; 
+}
+#ft2,#ft3{
+    margin-left: 2.3vw;
+    margin-right: 2.3vw;
+}
+.blocoIm{
+    height: 50%;
+}
+.ftp{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    z-index: 5;
+}
+.amp{
+    justify-self: center;
+    align-self: center;
+    z-index: 10;
+    background-color:rgba(109, 119, 109, 0.8);
+    text-align: center;
+    position: relative;
+    bottom: 60%;
+}
+.Nome{
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+.Explic{
+    line-height: 1em;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 0;
+    text-align: justify;
+}
+.VM{
+    line-height: 30px;
+    color: white;
+    font-size: 1.25em;
+    border: solid 2px rgb(56, 53, 53);
+    background-color: rgb(68, 67, 67);
+    width: 19%;
+    margin: 0;
+    text-align: center;
+}
+footer{
+    display: flex;
+    width: 85vw;
+    height: 15vh;
+    background-color: red;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+   align-items: center;
+}
+.itemMenuF{
+    color: white;
+    text-decoration: none;
+}
